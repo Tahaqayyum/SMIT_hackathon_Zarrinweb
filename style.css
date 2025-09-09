@@ -1,0 +1,271 @@
+@font-face {
+    font-family: RailwayBold;
+    src: url(Fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Railwaymed;
+    src: url(Fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: Railwayreg;
+    src: url(Fonts/Raleway-Regular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Railwaymed;
+}
+.main-container{
+    max-width: 1440px;
+    height: auto;
+    background-color: #fcf9f9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px 15px 100px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+ul li a {
+    color:  #7C4EE4;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head-btn{
+    background-color: #7C4EE4;
+    padding: 12px 30px 12px 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+.hero-section{
+    background-color: #7C4EE4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.hero-text{
+    color: #fff;
+}
+.hero-text p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.hero-text h3{
+    font-size: 50px;
+}
+.hero-img img{
+    max-width: 450px;
+    height: auto;
+}
+.hero-btn{
+    background-color: #fff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    color: #292929;
+    border: none;
+    margin-top: 50px;
+}
+.vr-section{
+    margin-top: 80px;
+    position: absolute;
+}
+.Recentpost{
+    margin-top: 80px;
+    padding: 15px 100px 15px 100px;
+}
+.posthead{
+    display: flex;
+    justify-content: space-between;
+}
+.posthead h2{
+    font-size: 40px;
+}
+.post-btn{
+    background-color: #7C4EE4;
+    padding: 12px 30px 12px 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    
+}
+.postafterhead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+.afterhero img{
+    max-width: 500px;
+    height: 350px;
+}
+.afterherotext{
+   padding: 15px;
+}
+.afterherotext p{
+    font-size: 15px;
+}
+
+.afterhrobtn{
+    background-color: #ffffff;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #7C4EE4;
+    margin-top: 10px;
+    color: #7C4EE4;
+}
+.card-section{
+    display: flex;
+    padding: 15px 100px 15px 100px;
+    gap: 30px;
+    justify-content: space-between;
+}
+.card1{
+    max-width: 300px;
+}
+.card1 h2{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.card1 p{
+    font-size: 15px;
+}
+.card1 p{
+    font-size: 15px;
+
+    font-weight: bold;
+}
+.card1 p{
+    font-size: 15px;
+    
+
+}
+.card1 p{
+    font-size: 15px;
+
+    margin-top: 10px;
+}
+.card1 img{
+    height: 300px;
+}
+.Popularpost{
+    margin-top: 80px;
+    padding: 15px 100px 15px 100px;
+}
+.card-section2{
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.card2{
+    max-width: 300px;
+}
+.card2 h2{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.card2 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card2 img{
+    height: 300px;
+}
+.newsletter{
+    background-color: #7C4EE4;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter p{
+    font-size: 15px;
+    color: #faebd7;
+}
+.news-head h1{
+    font-weight: bold;
+}
+.subscribe input[type="email"] {
+    padding: 12px 16px;
+    width: 280px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.subscribe input[type="email"]::placeholder {
+    color: #999;
+    font-style: italic;
+    opacity: 1; 
+    transition: color 0.3s;
+}
+.subscribe input[type="email"]:focus::placeholder {
+    color: #ccc;
+}
+.newsletter-btn{
+    background-color: #7C4EE4;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    margin-top: 10px;
+    color: #ffff;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.footlink ul{
+    display: flex;
+    list-style: none;
+    align-items: center; 
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+ul li a {
+    color:  #292929;
+    text-decoration: none;
+    font-size: 15px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.icons i {
+    background-color: #7C4EE4;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
